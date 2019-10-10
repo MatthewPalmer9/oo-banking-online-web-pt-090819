@@ -12,4 +12,8 @@ class BankAccount
     return 1000
   end
 
+  def deposit
+    balance
+  end
+
 end
