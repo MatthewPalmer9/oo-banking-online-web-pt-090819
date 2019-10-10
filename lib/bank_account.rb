@@ -12,8 +12,8 @@ class BankAccount
     return 1000
   end
 
-  def deposit
-    balance
+  def deposit(amount)
+    return balance + amount
   end
 
 end
