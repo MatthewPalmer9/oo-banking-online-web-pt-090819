@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def balance
-    return 1000
+    1000
   end
 
   def deposit(amount)
