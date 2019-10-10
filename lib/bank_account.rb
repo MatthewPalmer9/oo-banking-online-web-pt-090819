@@ -9,11 +9,11 @@ class BankAccount
   end
 
   def balance
-    1000
+    p 1000
   end
 
   def deposit(amount)
-    return balance + amount
+    balance += amount
   end
 
 end
