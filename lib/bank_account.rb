@@ -3,6 +3,11 @@ class BankAccount
 
   def initialize(name)
     @name = name
-  end 
+    balance
+  end
+
+  def balance
+    return 1000
+  end
 
 end
